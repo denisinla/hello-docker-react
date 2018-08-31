@@ -10,7 +10,9 @@ Running on Linux? _Optional step for allowing linux non-root users to run docker
 
 Just run:
 
-* $ docker-compose up
+```
+docker-compose up
+```
 
 And wait until the console returns a ready on https://localhost:3000
 
