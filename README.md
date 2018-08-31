@@ -4,7 +4,10 @@ The easiest way to create a React app with server-side rendering thanks to Next.
 **Features:** <a href="https://open.segment.com/create-next-app">create-next-app</a>, Docker and Yarn.
 
 Running on Linux? _Optional step for allowing linux non-root users to run docker commands:_
-* $ sudo usermod -aG docker $USER
+
+```
+$ sudo usermod -aG docker $USER
+```
 
 # Build and start your React environment with single command:
 
