@@ -1,8 +1,7 @@
-#!/usr/bin/env sh
+#!/bin/sh
 bash
-yarn global add create-react-app
-create-react-app src
+yarn global add create-next-app
+create-next-app src
 cd src
 chown node:node -R .
-yarn install
-yarn start
+yarn dev
