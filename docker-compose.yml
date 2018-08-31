@@ -7,8 +7,8 @@ services:
       dockerfile: Dockerfile
     container_name: hello-docker-react
     entrypoint: sh entrypoint.sh
-    working_dir: /home/node
+    working_dir: /usr/src/app
     ports:
       - 3000:3000
     volumes:
-      - .:/home/node
+      - .:/usr/src/app
