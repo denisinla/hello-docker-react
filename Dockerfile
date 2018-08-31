@@ -1,4 +1,5 @@
-FROM node:latest
+FROM node:alpine
 
-ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && apt-get install bash
+RUN apk update && \
+    apk upgrade && \
+    apk add bash
